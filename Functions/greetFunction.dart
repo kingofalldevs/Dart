@@ -1,9 +1,9 @@
 void main(){
-  final greeting = greet("josepha", 5);
+  final String greeting = greet(name: "josepha",age:  5);
   print(greeting);
 }
 
-greet(String? name ,int age){
+greet({String? name , required int age}){
   return "My name is $name and I am $age ";
 }
 
