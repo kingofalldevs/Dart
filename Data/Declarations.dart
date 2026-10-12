@@ -15,5 +15,18 @@ void main(){
   //without the "?" the code below gives an error
   //int day = null;
 
+  //const sets a constant value
+  const is0pen = true;
+  print(is0pen);
+
+  //we cant change the value 
+  //isOpen = false; //wont work
+
+  //Final is a runtime constant we use it when we do not know 
+  //what the actual value will be at runtime
+
+  //const is used when we know the value before runtime so 
+  //it is called a compliler time constant
+
 
 }
